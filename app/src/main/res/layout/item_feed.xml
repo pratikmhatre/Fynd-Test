@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="name"
+            type="String" />
+
+        <variable
+            name="username"
+            type="String" />
+
+        <variable
+            name="time"
+            type="String" />
+
+        <variable
+            name="text"
+            type="android.text.SpannableString" />
+
+        <variable
+            name="comments"
+            type="String" />
+
+        <variable
+            name="retweets"
+            type="String" />
+
+        <variable
+            name="likes"
+            type="String" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp12">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_avatar"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/dp50"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:roundAsCircle="true" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frame_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp12"
+            app:layout_constraintLeft_toRightOf="@+id/iv_avatar"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@{name}"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/sp14"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/tv_time_ago"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Tom Hardy" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{username}"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/sp13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_name"
+                tools:text="Tom Hardy" />
+
+            <TextView
+                android:id="@+id/tv_time_ago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp8"
+                android:text="@{time}"
+                android:textColor="@color/colorGreyDark"
+                android:textSize="@dimen/sp13"
+                app:layout_constraintRight_toLeftOf="@+id/ic_more"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="5 mins ago" />
+
+            <ImageView
+                android:id="@+id/ic_more"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_down_arrow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp3"
+                android:letterSpacing="0.05"
+                android:lineSpacingExtra="1dp"
+                android:text="@{text}"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/sp13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/ic_more"
+                app:layout_constraintTop_toBottomOf="@+id/tv_username"
+                tools:maxLines="4"
+                tools:text="@tools:sample/lorem/random" />
+
+            <LinearLayout
+                android:id="@+id/frame_comments"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/frame_retweets"
+                app:layout_constraintTop_toBottomOf="@+id/tv_text">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_comment" />
+
+                <TextView
+                    android:id="@+id/iv_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:text="0"
+                    android:textColor="@color/colorGreyDark"
+                    android:textSize="@dimen/sp12"
+                    tools:text="14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_retweets"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toRightOf="@+id/frame_comments"
+                app:layout_constraintRight_toLeftOf="@+id/frame_likes"
+                app:layout_constraintTop_toBottomOf="@+id/tv_text">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_refresh" />
+
+                <TextView
+                    android:id="@+id/tv_retweets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:text="@{retweets}"
+                    android:textColor="@color/colorGreyDark"
+                    android:textSize="@dimen/sp12"
+                    tools:text="14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_likes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toRightOf="@+id/frame_retweets"
+                app:layout_constraintRight_toLeftOf="@+id/frame_share"
+                app:layout_constraintTop_toBottomOf="@+id/tv_text">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_like" />
+
+                <TextView
+                    android:id="@+id/tv_likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:text="@{likes}"
+                    android:textColor="@color/colorGreyDark"
+                    android:textSize="@dimen/sp12"
+                    tools:text="14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_share"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="top"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toRightOf="@+id/frame_likes"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_text">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share" />
+
+                <TextView
+                    android:id="@+id/tv_shares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:textColor="@color/colorGreyDark"
+                    android:textSize="@dimen/sp12" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/view_devider"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/colorGreyDark"
+            app:layout_constraintTop_toBottomOf="@+id/frame_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

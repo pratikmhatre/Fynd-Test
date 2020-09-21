@@ -1,0 +1,190 @@
+{
+  "created_at": "Sun Sep 20 15:49:47 +0000 2020",
+  "id": 1307708543923970048,
+  "id_str": "1307708543923970048",
+  "text": "RT @MumtazAICC: इस विडियो को किसने एडिट किया मुझे नहीं पता , मुझे तो किसी ने वाट्सअप पर भेजा है,\nलेकिन जिसने भी बनाया बहुत सही बनाया है उस…",
+  "truncated": false,
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "MumtazAICC",
+        "name": "Mumtaz इलाहाबादी",
+        "id": 1189175802,
+        "id_str": "1189175802",
+        "indices": [
+          3,
+          14
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 168764720,
+    "id_str": "168764720",
+    "name": "Sanjoy Rauet",
+    "screen_name": "Rautparody61",
+    "location": "",
+    "description": "welcome to Fan page ...it's not affiliated to Sanjay Raut sir...\n 100% Parody..... political satire😬\n no abusing🙏 RT r not endorsement🙏",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 19047,
+    "friends_count": 3204,
+    "listed_count": 6,
+    "created_at": "Tue Jul 20 19:09:17 +0000 2010",
+    "favourites_count": 35939,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 30214,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "131516",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1302539952098435072/nPzvk3fA_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1302539952098435072/nPzvk3fA_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/168764720/1599822804",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "EEEEEE",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sun Sep 20 12:27:40 +0000 2020",
+    "id": 1307657681088454656,
+    "id_str": "1307657681088454656",
+    "text": "इस विडियो को किसने एडिट किया मुझे नहीं पता , मुझे तो किसी ने वाट्सअप पर भेजा है,\nलेकिन जिसने भी बनाया बहुत सही बना… https://t.co/Lfb87IbPKO",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Lfb87IbPKO",
+          "expanded_url": "https://twitter.com/i/web/status/1307657681088454656",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1189175802,
+      "id_str": "1189175802",
+      "name": "Mumtaz इलाहाबादी",
+      "screen_name": "MumtazAICC",
+      "location": "India",
+      "description": "INDIAN,Advocate H.C Alld, Member All India Congress committee,INCUPCC, Corporater Nagar Nigam & Member Jila Yojna Samiti.Political Activist,Thinker,Social Work",
+      "url": "https://t.co/5LU6il0ec4",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/5LU6il0ec4",
+              "expanded_url": "https://www.facebook.com/mumtaz.memberaicc",
+              "display_url": "facebook.com/mumtaz.membera…",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 12191,
+      "friends_count": 1282,
+      "listed_count": 3,
+      "created_at": "Sun Feb 17 11:23:06 +0000 2013",
+      "favourites_count": 44176,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 21241,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1261928053237788672/5nQVu-Ls_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1261928053237788672/5nQVu-Ls_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1189175802/1589657563",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 80,
+    "favorite_count": 188,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "hi"
+  },
+  "is_quote_status": false,
+  "retweet_count": 80,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "hi"
+},

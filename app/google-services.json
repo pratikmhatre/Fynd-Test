@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "67609717238",
+    "firebase_url": "https://fynd-test-6ce05.firebaseio.com",
+    "project_id": "fynd-test-6ce05",
+    "storage_bucket": "fynd-test-6ce05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67609717238:android:442864bd521765efb3ffd7",
+        "android_client_info": {
+          "package_name": "com.example.cavista_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67609717238-i5vg3k3u2nl2s3v5944et6lid2g9otgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSmBFVa7IrogRJYfSQxypMkEpokOo1miU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67609717238-i5vg3k3u2nl2s3v5944et6lid2g9otgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
